@@ -17,8 +17,6 @@ import {
   Users,
   Star,
 } from 'lucide-react';
-import Header from '../components/Header';
-  import Footer from '../components/Footer';
 
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -66,7 +64,6 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen">
-      <Header />
 
       {/* Hero Section with Slider */}
       {/* Use variable heights/padding and center-align text on small screens */}
@@ -414,7 +411,7 @@ const HomePage = () => {
               Why Choose ASFI Construction?
             </h2>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              15 years of proven expertise in polyurea applications with a commitment
+              18+ years of proven expertise in polyurea applications with a commitment
               to exceeding expectations and building long-term partnerships.
             </p>
           </div>
@@ -483,8 +480,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };
