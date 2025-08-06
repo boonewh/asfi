@@ -109,8 +109,8 @@ const FoodPlantsPage = () => {
 
   const faqItems = [
     {
-      question: "Are these coatings FDA approved for food facilities?",
-      answer: "Yes, our coating systems are suitable for incidental food contact applications and meet FDA requirements. They are specifically engineered for food processing environments where hygiene and safety are paramount."
+      question: "Are these coatings USDA approved for food facilities?",
+      answer: "Yes, our coating systems are suitable for incidental food contact applications and meet USDA requirements. They are specifically engineered for food processing environments where hygiene and safety are paramount."
     },
     {
       question: "How do these coatings handle frequent washdowns?",
@@ -144,7 +144,7 @@ const FoodPlantsPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                FDA Approved • Fire Rated • Ultra-Low VOC
+                USDA Approved • Fire Rated • Ultra-Low VOC
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
                 <span className="text-slate-800">Food Grade</span>
@@ -217,7 +217,7 @@ const FoodPlantsPage = () => {
                 <div className="flex items-center space-x-3">
                   <ShieldCheck className="h-8 w-8 text-blue-600" />
                   <div>
-                    <div className="font-bold text-slate-800">FDA Approved</div>
+                    <div className="font-bold text-slate-800">USDA Approved</div>
                     <div className="text-sm text-slate-600">Food contact safe</div>
                   </div>
                 </div>
@@ -429,10 +429,10 @@ const FoodPlantsPage = () => {
               </div>
               <h3 className="text-xl font-bold text-slate-800 mb-3">Food Contact Approved</h3>
               <p className="text-slate-600 mb-4">
-                Suitable for incidental food contact applications with full FDA compliance 
+                Suitable for incidental food contact applications with full USDA compliance 
                 and certification for food processing environments.
               </p>
-              <div className="text-sm text-green-700 font-semibold">✓ FDA Compliant</div>
+              <div className="text-sm text-green-700 font-semibold">✓ USDA Compliant</div>
             </div>
 
             <div className="bg-gradient-to-br from-red-50 to-white rounded-xl p-6 shadow-lg border border-red-100">
