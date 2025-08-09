@@ -135,13 +135,13 @@ const AboutPage = () => {
                   <Mail className="h-4 w-4 mr-2" />
                   Rachel@asficontruction.com
                 </a>
-                <a 
+                {/* <a 
                   href="tel:(940) 391-1230"
                   className="flex items-center text-slate-600 hover:text-orange-600 transition-colors"
                 >
                   <Phone className="h-4 w-4 mr-2" />
                   (940) 391-1230
-                </a>
+                </a> */}
               </div>
             </div>
 

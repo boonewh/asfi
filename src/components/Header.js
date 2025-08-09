@@ -48,10 +48,15 @@ export default function Header() {
               </div>
               
               {/* Desktop contact & CTA */}
-              <div className="hidden xl:flex items-center space-x-4">
-                <a href="tel:(432) 438-5806" className="text-orange-400 hover:text-orange-300 font-semibold">
-                  (432) 438-5806
-                </a>
+              <div className="hidden xl:flex items-center space-x-6">
+                <div className="flex flex-col space-y-1">
+                  <a href="tel:(432) 438-5806" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">
+                    Sales: (432) 438-5806
+                  </a>
+                  <a href="tel:(940) 458-9078" className="text-gray-300 hover:text-orange-300 font-medium text-sm">
+                    Office: (940) 458-9078
+                  </a>
+                </div>
                 <Link href="/contact" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transition-all">
                   Get Quote
                 </Link>
@@ -85,7 +90,10 @@ export default function Header() {
               ))}
               <div className="px-3 py-2 border-t border-slate-700 mt-2 pt-4">
                 <a href="tel:(432) 438-5806" className="block px-3 py-2 text-orange-400 font-semibold">
-                  📞 (432) 438-5806
+                  📞 Sales: (432) 438-5806
+                </a>
+                <a href="tel:(940) 458-9078" className="block px-3 py-2 text-gray-300 font-medium">
+                  🏢 Office: (940) 458-9078
                 </a>
                 <Link 
                   href="/contact" 

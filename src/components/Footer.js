@@ -36,7 +36,15 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-orange-400 flex-shrink-0" />
                 <div>
                   <p className="text-white font-semibold">(432) 438-5806</p>
-                  <p className="text-gray-400 text-sm">Call us today for a free quote</p>
+                  <p className="text-gray-400 text-sm">Sales - Call for a free quote</p>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-3 mb-4">
+                <Phone className="h-5 w-5 text-orange-400 flex-shrink-0" />
+                <div>
+                  <p className="text-white font-semibold">(940) 458-9078</p>
+                  <p className="text-gray-400 text-sm">Office - General inquiries</p>
                 </div>
               </div>
 
