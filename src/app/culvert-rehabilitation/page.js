@@ -82,7 +82,7 @@ const CulvertRehabilitationPage = () => {
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-orange-500 rounded-full blur-3xl"></div>
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
         </div>
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -98,7 +98,7 @@ const CulvertRehabilitationPage = () => {
                 without full replacement. Advanced polyurea spray coatings that stop corrosion 
                 and restore structural integrity.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Link
                   href="/contact"
@@ -116,7 +116,6 @@ const CulvertRehabilitationPage = () => {
                 </a>
               </div>
 
-              {/* Key Stats */}
               <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-700">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-orange-400 mb-2">18+</div>
@@ -133,18 +132,23 @@ const CulvertRehabilitationPage = () => {
               </div>
             </div>
 
-            {/* Hero Image/Visual */}
+            {/* Hero Video (cover-cropped YouTube) */}
             <div className="relative">
-              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src="/images/culvert-rehabilitation.jpg"
-                  alt="ASFI robot applying polyurea coating inside large concrete culvert using specialized spray equipment for SIPP rehabilitation"
-                  width={600}
-                  height={600}
-                  className="w-full h-full object-cover"
-                />
+              <div className="h-[500px] rounded-2xl overflow-hidden">
+                <div className="relative w-full h-full overflow-hidden">
+                  {/* Make iframe “cover” the box (crops sides, removes black bars) */}
+                  <iframe
+                    className="absolute top-0 left-1/2 -translate-x-1/2 h-full" 
+                    /* 177.78% ≈ 16/9, forces width > container to crop */
+                    src="https://www.youtube.com/embed/iSr6xIM1_zc?autoplay=1&mute=1&loop=1&playlist=iSr6xIM1_zc&controls=0&modestbranding=1&rel=0&playsinline=1"
+                    title="ASFI Culvert Rehabilitation"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    referrerPolicy="strict-origin-when-cross-origin"
+                  />
+                </div>
               </div>
-              
+
               {/* Floating benefit cards */}
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-6 border border-gray-100">
                 <div className="flex items-center space-x-3">
@@ -155,7 +159,7 @@ const CulvertRehabilitationPage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="absolute -top-6 -right-6 bg-white rounded-xl shadow-xl p-6 border border-gray-100">
                 <div className="flex items-center space-x-3">
                   <Award className="h-8 w-8 text-orange-600" />
@@ -166,9 +170,11 @@ const CulvertRehabilitationPage = () => {
                 </div>
               </div>
             </div>
+            {/* End hero video */}
           </div>
         </div>
       </section>
+
 
       {/* Why Culvert Rehabilitation Matters */}
       <section className="py-20 bg-white border-t-4 border-b-4 border-orange-500">
@@ -293,7 +299,7 @@ const CulvertRehabilitationPage = () => {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/sipp_robot.jpg"
+                  src="/images/culvert-rehabilitation.jpg"
                   alt="SIPP robotic equipment in action applying polyurea coating technology inside pipe infrastructure"
                   width={600}
                   height={400}
