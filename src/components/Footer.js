@@ -35,7 +35,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3 mb-4">
                 <Phone className="h-5 w-5 text-orange-400 flex-shrink-0" />
                 <div>
-                  <p className="text-white font-semibold">(432) 438-5806</p>
+                  <p className="text-white font-semibold">(940) 391-1230</p>
                   <p className="text-gray-400 text-sm">Sales - Call for a free quote</p>
                 </div>
               </div>
@@ -43,7 +43,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3 mb-4">
                 <Phone className="h-5 w-5 text-orange-400 flex-shrink-0" />
                 <div>
-                  <p className="text-white font-semibold">(940) 458-9078</p>
+                  <p className="text-white font-semibold">(940) 391-1230</p>
                   <p className="text-gray-400 text-sm">Office - General inquiries</p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3 mb-4">
                 <Mail className="h-5 w-5 text-orange-400 flex-shrink-0" />
                 <div>
-                  <p className="text-white font-semibold">john@asficonstruction.com</p>
+                  <p className="text-white font-semibold">rachel@asficonstruction.com</p>
                   <p className="text-gray-400 text-sm">Get a quick response</p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-orange-400 flex-shrink-0" />
                 <div>
                   <p className="text-white font-semibold">Main Office</p>
-                  <p className="text-gray-400 text-sm">201 Railroad Ave Sanger, TX 76266</p>
+                  <p className="text-gray-400 text-sm">5390 Sam Bass Rd., Sanger, TX. 76266</p>
                   <p className="text-gray-400 text-sm">Serving Texas and beyond</p>
                 </div>
               </div>

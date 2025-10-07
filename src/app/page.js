@@ -218,11 +218,11 @@ const HomePage = () => {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
                 <a
-                  href="tel:(432) 438-5806"
+                  href="tel:(940) 391-1230"
                   className="border-2 border-orange-600 text-orange-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-orange-600 hover:text-white transition-all flex items-center justify-center"
                 >
                   <Phone className="mr-2 h-4 w-4" />
-                  (432) 438-5806
+                  (940) 391-1230
                 </a>
               </div>
             </div>
@@ -471,7 +471,7 @@ const HomePage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-xl transition-all flex items-center justify-center">
               <Phone className="mr-2 h-5 w-5" />
-              Call (432) 438-5806
+              Call (940) 391-1230
             </button>
             <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-600 hover:text-white transition-all flex items-center justify-center">
               <Mail className="mr-2 h-5 w-5" />

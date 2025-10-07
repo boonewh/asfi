@@ -108,11 +108,11 @@ const CulvertRehabilitationPage = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <a
-                  href="tel:(432) 438-5806"
+                  href="tel:(940) 391-1230"
                   className="border-2 border-orange-400 text-orange-400 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-400 hover:text-white transition-all flex items-center justify-center"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  (432) 438-5806
+                  (940) 391-1230
                 </a>
               </div>
 
@@ -415,20 +415,20 @@ const CulvertRehabilitationPage = () => {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <a
-              href="tel:(432) 438-5806"
+              href="tel:(940) 391-1230"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-[#3652A0] transition-all flex items-center justify-center"
             >
               <Phone className="mr-2 h-5 w-5" />
-              Call (432) 438-5806
+              Call (940) 391-1230
             </a>
           </div>
 
           {/* Contact info */}
           <div className="mt-8 pt-8 border-t border-slate-600">
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-slate-300">
-              <a href="mailto:john@asficonstruction.com" className="flex items-center hover:text-white transition-colors">
+              <a href="mailto:rachel@asficonstruction.com" className="flex items-center hover:text-white transition-colors">
                 <Mail className="h-4 w-4 mr-2" />
-                john@asficonstruction.com
+                rachel@asficonstruction.com
               </a>
               <span className="hidden sm:block">•</span>
               <span>Serving Texas and Beyond</span>

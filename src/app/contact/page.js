@@ -25,7 +25,7 @@ export default function ContactPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-semibold text-lg mb-2">Phone</h3>
-                <p className="text-gray-700 text-lg">(432) 438-5806</p>
+                <p className="text-gray-700 text-lg">(940) 391-1230</p>
               </div>
               
               <div>
@@ -36,7 +36,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-lg mb-2">Main Office</h3>
                 <div className="text-gray-700 text-lg">
-                  <p>201 Railroad Ave</p>
+                  <p>5390 Sam Bass Rd.</p>
                   <p>Sanger, TX 76266</p>
                 </div>
               </div>
