@@ -31,6 +31,67 @@ const CulvertRehabilitationPage = () => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Culvert Rehabilitation",
+    "name": "SIPP Technology - Spray In Place Pipe Culvert Rehabilitation",
+    "description": "Cost-effective, minimally invasive culvert rehabilitation using advanced SIPP (Spray In Place Pipe) polyurea technology. Extends culvert life by decades without full replacement.",
+    "provider": {
+      "@type": "Organization",
+      "name": "ASFI Construction LLC",
+      "url": "https://www.asficonstruction.com",
+      "telephone": "+1-940-391-1230",
+      "email": "rachel@asficonstruction.com"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "United States"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Culvert Rehabilitation Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Culvert SIPP Application",
+            "description": "Spray In Place Pipe technology for culvert rehabilitation"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Drainage System Rehabilitation",
+            "description": "Water and wastewater pipeline restoration"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Highway Culvert Repair",
+            "description": "DOT and municipal culvert infrastructure protection"
+          }
+        }
+      ]
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "ASFI Construction"
+    },
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    }
+  };
+
   const faqItems = [
     {
       question: "What is SIPP (Spray In Place Pipe) technology?",
@@ -74,9 +135,14 @@ const CulvertRehabilitationPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <div className="min-h-screen bg-white">
 
-      {/* Hero Section */}
+        {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-950 to-[#142142] text-white py-24 md:py-32 pt-32 md:pt-40 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-orange-500 rounded-full blur-3xl"></div>
@@ -234,8 +300,9 @@ const CulvertRehabilitationPage = () => {
       </section>
 
       {/* SIPP Technology Deep Dive */}
-      <section className="py-20 bg-[#3652A0]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-[#3652A0] relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3652A0] to-[#2d4280] opacity-50"></div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-white mb-6">
@@ -396,8 +463,9 @@ const CulvertRehabilitationPage = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-[#3652A0] border-b-4 border-orange-500">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-20 bg-[#3652A0] border-b-4 border-orange-500 relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3652A0] to-[#2d4280] opacity-50"></div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Ready to Extend Your Infrastructure Life?
           </h2>
@@ -437,7 +505,8 @@ const CulvertRehabilitationPage = () => {
         </div>
       </section>
 
-    </div>
+      </div>
+    </>
   );
 };
 

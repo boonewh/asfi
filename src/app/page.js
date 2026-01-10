@@ -266,9 +266,10 @@ const HomePage = () => {
       </section>
 
       {/* Services Overview */}
-      <section id="services" className="py-16 sm:py-20 bg-[#3652A0]">
+      <section id="services" className="py-16 sm:py-20 bg-[#3652A0] relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3652A0] to-[#2d4280] opacity-50"></div>
         {/* Full width on small devices; back to 70% on md+ screens */}
-        <div className="max-w-full md:max-w-[70%] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-full md:max-w-[70%] mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
               Polyurea Lining & Coating Solutions
@@ -459,12 +460,13 @@ const HomePage = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-[#3652A0] border-b-4 border-orange-500">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-20 bg-[#3652A0] border-b-4 border-orange-500 relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3652A0] to-[#2d4280] opacity-50"></div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Ready to Extend Your Infrastructure Life?
           </h2>
-          <p className="text-xl text-slate-600 mb-8">
+          <p className="text-xl text-white mb-8">
             Get a free consultation and discover how our polyurea solutions can save you
             up to 70% compared to traditional methods.
           </p>

@@ -107,8 +107,9 @@ const AboutPage = () => {
       </section>
 
       {/* Leadership Section */}
-      <section className="py-20 bg-[#3652A0]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-[#3652A0] relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3652A0] to-[#2d4280] opacity-50"></div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">
               Leadership
@@ -280,13 +281,14 @@ const AboutPage = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-[#3652A0] border-t-4 border-b-4 border-orange-500">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-20 bg-[#3652A0] border-t-4 border-b-4 border-orange-500 relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3652A0] to-[#2d4280] opacity-50"></div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Ready to Work with a Trusted Partner?
           </h2>
-          <p className="text-xl text-slate-600 mb-8">
-            Experience the ASFI difference - where quality, ethics, and innovation come together 
+          <p className="text-xl text-white mb-8">
+            Experience the ASFI difference - where quality, ethics, and innovation come together
             to deliver exceptional results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

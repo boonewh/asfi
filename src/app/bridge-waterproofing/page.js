@@ -39,6 +39,67 @@ const BridgeWaterproofingPage = () => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Bridge Waterproofing",
+    "name": "Bridge Deck Waterproofing - Highway & Railway Bridge Protection",
+    "description": "Rapid-cure elastomeric membrane systems that permanently protect rail and highway bridge infrastructure from deicing chemicals, water damage, and accelerated deterioration.",
+    "provider": {
+      "@type": "Organization",
+      "name": "ASFI Construction LLC",
+      "url": "https://www.asficonstruction.com",
+      "telephone": "+1-940-391-1230",
+      "email": "rachel@asficonstruction.com"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "United States"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Bridge Waterproofing Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Highway Bridge Waterproofing",
+            "description": "DOT and municipal bridge deck protection systems"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Railway Bridge Waterproofing",
+            "description": "Specialized waterproofing for rail infrastructure"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Elastomeric Membrane Application",
+            "description": "Rapid-cure, seamless waterproof membrane systems"
+          }
+        }
+      ]
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "ASFI Construction"
+    },
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    }
+  };
+
   const waterproofingSteps = [
     {
       number: "01",
@@ -144,9 +205,14 @@ const BridgeWaterproofingPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <div className="min-h-screen bg-white">
 
-      {/* Hero Section */}
+        {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-950 to-[#142142] text-white py-24 md:py-32 pt-32 md:pt-40 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
@@ -302,8 +368,9 @@ const BridgeWaterproofingPage = () => {
       </section>
 
       {/* Key Benefits Section */}
-      <section className="py-20 bg-[#3652A0]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-[#3652A0] relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3652A0] to-[#2d4280] opacity-50"></div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">
               Key Benefits of Our Waterproofing Systems
@@ -525,8 +592,9 @@ const BridgeWaterproofingPage = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-[#3652A0] border-t-4 border-b-4 border-orange-500">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-20 bg-[#3652A0] border-t-4 border-b-4 border-orange-500 relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3652A0] to-[#2d4280] opacity-50"></div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Protect Your Bridge Infrastructure Today
           </h2>
@@ -569,7 +637,8 @@ const BridgeWaterproofingPage = () => {
         </div>
       </section>
 
-    </div>
+      </div>
+    </>
   );
 };
 
