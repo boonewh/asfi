@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -197,6 +198,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <Script src="https://enterprise52.com/js/813387.js" strategy="afterInteractive" />
+        <noscript><img alt="" src="https://enterprise52.com/813387.png" style={{display:'none'}} /></noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
