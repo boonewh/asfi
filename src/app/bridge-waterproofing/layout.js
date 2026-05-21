@@ -1,10 +1,10 @@
 export const metadata = {
-  title: 'Bridge Deck Waterproofing | Highway & Railway Bridge Protection',
-  description: 'Nationwide bridge deck waterproofing services using rapid-cure elastomeric membrane systems. Protect highway and railway infrastructure from deicing chemicals, water damage, and deterioration. 25+ year lifespan, 1-hour cure time.',
-  keywords: 'bridge waterproofing, bridge deck protection, highway bridge waterproofing, railway bridge waterproofing, polyurea bridge coating, elastomeric membrane, bridge infrastructure protection, DOT bridge services',
+  title: 'Bridge Waterproofing | Bridge Deck Waterproofing Contractors',
+  description: 'Nationwide bridge waterproofing contractor specializing in bridge deck waterproofing using rapid-cure elastomeric membrane systems. Protect highway and railway infrastructure from deicing chemicals, water damage, and deterioration. 25+ year lifespan, 1-hour cure time.',
+  keywords: 'bridge waterproofing, bridge waterproofing contractor, bridge deck waterproofing, bridge deck protection, highway bridge waterproofing, railway bridge waterproofing, polyurea bridge coating, elastomeric membrane, bridge infrastructure protection, DOT bridge services',
   openGraph: {
-    title: 'Bridge Deck Waterproofing | ASFI Construction',
-    description: 'Rapid-cure elastomeric systems that protect highway and railway bridge infrastructure nationwide. 25+ year lifespan, fast cure, seamless protection.',
+    title: 'Bridge Waterproofing | Bridge Deck Waterproofing | ASFI Construction',
+    description: 'Nationwide bridge waterproofing contractor. Rapid-cure elastomeric systems that protect highway and railway bridge infrastructure. 25+ year lifespan, fast cure, seamless protection.',
     type: 'website',
     url: 'https://www.asficonstruction.com/bridge-waterproofing',
     images: [
@@ -18,8 +18,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bridge Deck Waterproofing | ASFI Construction',
-    description: 'Rapid-cure elastomeric systems protecting highway and railway bridges nationwide. 25+ year lifespan.',
+    title: 'Bridge Waterproofing | Bridge Deck Waterproofing | ASFI Construction',
+    description: 'Nationwide bridge waterproofing contractor. Rapid-cure elastomeric systems protecting highway and railway bridges. 25+ year lifespan.',
     images: ['https://www.asficonstruction.com/images/bridge1.jpg'],
   },
   alternates: {

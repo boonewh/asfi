@@ -1,10 +1,10 @@
 export const metadata = {
-  title: 'Culvert Rehabilitation | SIPP Technology | Trenchless Pipe Repair',
-  description: 'Nationwide culvert rehabilitation using advanced SIPP (Spray In Place Pipe) technology. Cost-effective polyurea spray coatings that restore structural integrity and extend culvert life by decades. Minimal downtime, no full replacement needed.',
-  keywords: 'culvert rehabilitation, SIPP technology, spray in place pipe, trenchless pipe repair, culvert repair, polyurea pipe lining, culvert restoration, pipe rehabilitation, infrastructure repair, highway culvert repair',
+  title: 'Culvert Repair & Rehabilitation | Large Diameter Culvert Repair | SIPP',
+  description: 'Nationwide culvert repair and culvert rehabilitation contractor — including large diameter culvert repair — using advanced SIPP (Spray In Place Pipe) technology. Cost-effective polyurea spray coatings that restore structural integrity and extend culvert life by decades. Minimal downtime, no full replacement needed.',
+  keywords: 'culvert repair, large diameter culvert repair, culvert rehabilitation, SIPP technology, spray in place pipe, trenchless pipe repair, polyurea pipe lining, culvert restoration, pipe rehabilitation, infrastructure repair, highway culvert repair, large culvert repair',
   openGraph: {
-    title: 'Culvert Rehabilitation | SIPP Technology | ASFI Construction',
-    description: 'Advanced SIPP technology for cost-effective culvert rehabilitation nationwide. Restore structural integrity without full replacement. Fast curing, minimal downtime.',
+    title: 'Culvert Repair & Rehabilitation | Large Diameter Culvert Repair | ASFI Construction',
+    description: 'Nationwide culvert repair contractor specializing in large diameter culvert repair and SIPP culvert rehabilitation. Cost-effective polyurea solutions. Restore structural integrity without full replacement.',
     type: 'website',
     url: 'https://www.asficonstruction.com/culvert-rehabilitation',
     images: [
@@ -18,8 +18,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Culvert Rehabilitation | SIPP Technology | ASFI Construction',
-    description: 'Cost-effective culvert rehabilitation using advanced SIPP technology. Nationwide service, minimal downtime.',
+    title: 'Culvert Repair & Rehabilitation | Large Diameter Culvert Repair | ASFI',
+    description: 'Nationwide culvert repair contractor — large diameter culvert repair and SIPP culvert rehabilitation. Cost-effective, minimal downtime.',
     images: ['https://www.asficonstruction.com/images/culvert-rehabilitation.jpg'],
   },
   alternates: {

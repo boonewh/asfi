@@ -8,7 +8,6 @@ import {
   Clock,
   Zap,
   Award,
-  CheckCircle,
   ArrowRight,
   Phone,
   Mail,
@@ -18,10 +17,6 @@ import {
   Gauge,
   ChevronDown,
   ChevronUp,
-  Building2,
-  Droplets,
-  HardHat,
-  Truck
 } from 'lucide-react';
 
 const CulvertRehabilitationPage = () => {
@@ -75,6 +70,14 @@ const CulvertRehabilitationPage = () => {
             "name": "Highway Culvert Repair",
             "description": "DOT and municipal culvert infrastructure protection"
           }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Large Diameter Culvert Repair",
+            "description": "Trenchless rehabilitation and repair of large diameter culverts using SIPP polyurea spray-applied lining systems"
+          }
         }
       ]
     },
@@ -94,6 +97,14 @@ const CulvertRehabilitationPage = () => {
 
   const faqItems = [
     {
+      question: "Do you handle large diameter culvert repair?",
+      answer: "Yes — large diameter culvert repair is one of our specialties. Our SIPP (Spray In Place Pipe) polyurea systems are well-suited to large diameter culverts where traditional slip-lining or full replacement would be cost-prohibitive or disruptive. We handle round, elliptical, arch, and box culverts, and our crews can mobilize nationwide. Contact us with your culvert dimensions and condition and we'll scope the repair."
+    },
+    {
+      question: "What's the difference between culvert repair and culvert rehabilitation?",
+      answer: "The terms are often used interchangeably. Culvert repair typically refers to targeted fixes for specific defects, while culvert rehabilitation refers to a full structural and corrosion renewal of the pipe interior. Our SIPP polyurea systems do both — they seal active leaks and joint failures while also restoring the structural load-carrying capacity of corroded culverts."
+    },
+    {
       question: "What is SIPP (Spray In Place Pipe) technology?",
       answer: "SIPP is a trenchless pipe renewal method that sprays polymeric linings inside deteriorated pipes. This provides both corrosion protection and structural enhancement, extending service life by decades while being more cost-effective than traditional replacement methods."
     },
@@ -108,29 +119,6 @@ const CulvertRehabilitationPage = () => {
     {
       question: "How does SIPP compare to pipe replacement costs?",
       answer: "SIPP is significantly more cost-effective than traditional open-cut replacement methods. It eliminates the need for extensive excavation, reduces labor costs, and minimizes traffic disruption and restoration expenses."
-    }
-  ];
-
-  const applications = [
-    {
-      icon: Building2,
-      title: "Culverts",
-      description: "Highway and railway culverts of all sizes and shapes"
-    },
-    {
-      icon: Droplets,
-      title: "Water/Wastewater Pipelines",
-      description: "Municipal and industrial water distribution and collection systems"
-    },
-    {
-      icon: Truck,
-      title: "Drainage Systems",
-      description: "Storm water management and flood control infrastructure"
-    },
-    {
-      icon: HardHat,
-      title: "Manholes & Storage",
-      description: "Access points, tanks, and specialized containment structures"
     }
   ];
 
@@ -153,16 +141,17 @@ const CulvertRehabilitationPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block bg-orange-500/20 text-orange-400 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                Spray In Place Pipe (SIPP) Technology
+                Culvert Repair · Large Diameter Culvert Repair · SIPP
               </div>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-                Culvert Rehabilitation
-                <span className="block text-orange-400">That Works</span>
+                Culvert Repair &amp;
+                <span className="block text-orange-400">Rehabilitation</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                Cost-effective, minimally invasive solutions that extend culvert life by decades 
-                without full replacement. Advanced polyurea spray coatings that stop corrosion 
-                and restore structural integrity.
+                Nationwide culvert repair contractor specializing in large diameter culvert repair
+                and trenchless culvert rehabilitation. Cost-effective, minimally invasive polyurea
+                spray coatings that stop corrosion, restore structural integrity, and extend culvert
+                life by decades — without full replacement.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -247,11 +236,13 @@ const CulvertRehabilitationPage = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-800 mb-6">
-              Why Culvert Rehabilitation Matters
+              Why Culvert Repair &amp; Rehabilitation Matters
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Aging and damaged culverts can lead to erosion, flooding, road failures, and safety hazards. 
-              ASFI Construction offers cost-effective, minimally invasive solutions.
+              Aging and damaged culverts can lead to erosion, flooding, road failures, and safety hazards.
+              ASFI Construction provides cost-effective, minimally invasive culvert repair and culvert
+              rehabilitation — including large diameter culvert repair — for DOTs, railroads, municipalities,
+              and private owners nationwide.
             </p>
           </div>
 
@@ -295,6 +286,68 @@ const CulvertRehabilitationPage = () => {
                 Resistant to corrosion, abrasion, and chemical exposure
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Large Diameter Culvert Repair */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-slate-800 mb-6">
+              Large Diameter Culvert Repair
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Large diameter culverts present some of the toughest infrastructure challenges — full
+              replacement means major excavation, lane closures, and weeks of disruption. ASFI&apos;s
+              trenchless culvert repair approach is built for exactly these projects.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-gray-50 rounded-xl p-8 border-l-4 border-orange-500">
+              <h3 className="text-xl font-bold text-slate-800 mb-3">Built for Big Pipe</h3>
+              <p className="text-slate-600">
+                Our SIPP polyurea systems are spray-applied from inside the culvert, which makes them
+                particularly well-suited to large diameter culvert repair where worker access is feasible
+                and traditional slip-lining would sacrifice too much hydraulic capacity.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-xl p-8 border-l-4 border-orange-500">
+              <h3 className="text-xl font-bold text-slate-800 mb-3">All Shapes &amp; Materials</h3>
+              <p className="text-slate-600">
+                We repair round, elliptical, arch, and box culverts in corrugated metal pipe (CMP),
+                reinforced concrete pipe (RCP), and structural plate. The seamless polyurea lining
+                conforms to complex geometries that rigid liners can&apos;t.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-xl p-8 border-l-4 border-orange-500">
+              <h3 className="text-xl font-bold text-slate-800 mb-3">Restores Structure</h3>
+              <p className="text-slate-600">
+                For fully corroded large diameter culverts, polymeric SIPP can dramatically increase
+                load-carrying capacity — bringing failed culverts back into service without the cost,
+                delay, and traffic impact of open-cut replacement.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-slate-50 rounded-2xl p-8 md:p-12 text-center">
+            <h3 className="text-2xl font-bold text-slate-800 mb-4">
+              Have a large diameter culvert that needs repair?
+            </h3>
+            <p className="text-lg text-slate-600 mb-6 max-w-2xl mx-auto">
+              Send us the dimensions, material, and current condition and we&apos;ll scope a culvert
+              repair plan tailored to your project.
+            </p>
+            <Link
+              href="/contact"
+              className="inline-flex items-center bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-xl transition-all"
+            >
+              Request a Culvert Repair Assessment
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
           </div>
         </div>
       </section>
@@ -367,7 +420,7 @@ const CulvertRehabilitationPage = () => {
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/culvert-rehabilitation.jpg"
-                  alt="SIPP robotic equipment in action applying polyurea coating technology inside pipe infrastructure"
+                  alt="Culvert repair in progress — SIPP spray equipment applying polyurea lining inside a large diameter culvert"
                   width={600}
                   height={400}
                   className="w-full h-full object-cover"
@@ -386,7 +439,7 @@ const CulvertRehabilitationPage = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-slate-600">
-              Common questions about SIPP technology and culvert rehabilitation
+              Common questions about culvert repair, large diameter culvert repair, and SIPP rehabilitation
             </p>
           </div>
 

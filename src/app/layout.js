@@ -199,6 +199,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script src="https://enterprise52.com/js/813387.js" strategy="afterInteractive" />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <noscript><img alt="" src="https://enterprise52.com/813387.png" style={{display:'none'}} /></noscript>
         <script
           type="application/ld+json"

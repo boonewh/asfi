@@ -187,8 +187,12 @@ const BridgeWaterproofingPage = () => {
 
   const faqItems = [
     {
+      question: "What types of bridges do you provide bridge waterproofing for?",
+      answer: "As a nationwide bridge waterproofing contractor, we serve highway bridges, railway bridges, pedestrian bridges, and overpasses of every size and configuration. Our bridge waterproofing systems are engineered for concrete, steel, and composite bridge decks, and we routinely work with state DOTs, municipalities, and Class I railroads."
+    },
+    {
       question: "How long does bridge waterproofing last?",
-      answer: "Our high-performance waterproofing membranes are designed to last 25+ years when properly applied. The rapid-cure elastomeric systems provide long-term protection against deicing chemicals, water intrusion, and structural deterioration."
+      answer: "Our high-performance bridge waterproofing membranes are designed to last 25+ years when properly applied. The rapid-cure elastomeric systems provide long-term protection against deicing chemicals, water intrusion, and structural deterioration."
     },
     {
       question: "Can waterproofing be applied in cold weather?",
@@ -273,7 +277,7 @@ const BridgeWaterproofingPage = () => {
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
                   src="/images/bridge1.jpg"
-                  alt="ASFI Construction crew applying waterproofing membrane to highway bridge deck using specialized spray equipment"
+                  alt="Bridge waterproofing application by ASFI Construction — crew spraying elastomeric membrane on a highway bridge deck"
                   width={600}
                   height={450}
                   className="w-full h-full object-cover"
@@ -311,14 +315,14 @@ const BridgeWaterproofingPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-slate-800 mb-6">
-                Bridge Deck Waterproofing
+                Nationwide Bridge Waterproofing Contractor
               </h2>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                Specializing in the rail and highway markets, ASFI Construction spray applies waterproofing 
-                membrane systems designed to permanently protect rail and highway structures. These rapid 
-                setting high build elastomeric spray applied waterproofing systems are impervious to deicing 
-                chemicals, water, ballast, stray current and other factors that contribute to accelerated 
-                deterioration and wear of elevated structures.
+                ASFI Construction is a full-service bridge waterproofing contractor specializing in the
+                rail and highway markets. We spray apply bridge waterproofing membrane systems designed
+                to permanently protect bridge decks and elevated structures. These rapid setting, high-build
+                elastomeric bridge waterproofing systems are impervious to deicing chemicals, water, ballast,
+                stray current and other factors that contribute to accelerated deterioration and wear.
               </p>
               
               <div className="prose prose-lg text-slate-600 mb-8">
@@ -356,7 +360,7 @@ const BridgeWaterproofingPage = () => {
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/bridge2.jpg"
-                  alt="Railway bridge waterproofing application showing membrane installation process with ASFI Construction crew"
+                  alt="Railway bridge waterproofing membrane installation by ASFI Construction"
                   width={600}
                   height={450}
                   className="w-full h-full object-cover"
@@ -461,7 +465,7 @@ const BridgeWaterproofingPage = () => {
               <div className="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
                 <Image
                   src="/images/bridge-prep.jpg"
-                  alt="Highway bridge deck preparation and surface treatment before waterproof membrane application"
+                  alt="Bridge waterproofing surface preparation — shot blasting a highway bridge deck before membrane application"
                   width={400}
                   height={300}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -477,7 +481,7 @@ const BridgeWaterproofingPage = () => {
               <div className="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
                 <Image
                   src="/images/bridge-spray.jpg"
-                  alt="Specialized spray equipment applying waterproofing membrane to bridge deck surface"
+                  alt="Bridge waterproofing membrane being spray-applied to a bridge deck surface"
                   width={400}
                   height={300}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -493,7 +497,7 @@ const BridgeWaterproofingPage = () => {
               <div className="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
                 <Image
                   src="/images/bridge.jpg"
-                  alt="Completed bridge deck waterproofing project showing finished membrane surface ready for overlay"
+                  alt="Completed bridge waterproofing project — finished membrane surface ready for asphalt overlay"
                   width={400}
                   height={300}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
