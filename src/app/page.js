@@ -113,12 +113,14 @@ const HomePage = () => {
         {/* Slider Controls */}
         <button
           onClick={prevSlide}
+          aria-label="Previous slide"
           className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-2 rounded-full transition-all"
         >
           <ChevronLeft className="h-6 w-6" />
         </button>
         <button
           onClick={nextSlide}
+          aria-label="Next slide"
           className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-2 rounded-full transition-all"
         >
           <ChevronRight className="h-6 w-6" />
@@ -130,6 +132,8 @@ const HomePage = () => {
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
+              aria-label={`Go to slide ${index + 1}`}
+              aria-pressed={index === currentSlide}
               className={`w-2.5 h-2.5 rounded-full transition-all ${
                 index === currentSlide ? 'bg-white' : 'bg-white/50'
               }`}
@@ -316,9 +320,9 @@ const HomePage = () => {
                   Structural Enhancement
                 </li>
               </ul>
-              <button className="mt-auto text-orange-600 font-semibold hover:text-orange-700 transition-colors flex items-center">
+              <Link href="/culvert-rehabilitation" className="mt-auto text-orange-600 font-semibold hover:text-orange-700 transition-colors flex items-center">
                 Learn More <ArrowRight className="ml-2 h-3.5 w-3.5 sm:h-4 sm:w-4" />
-              </button>
+              </Link>
             </div>
 
             {/* Bridge Waterproofing Card */}
@@ -356,9 +360,9 @@ const HomePage = () => {
                   Fast Cure Technology
                 </li>
               </ul>
-              <button className="mt-auto text-orange-600 font-semibold hover:text-orange-700 transition-colors flex items-center">
+              <Link href="/bridge-waterproofing" className="mt-auto text-orange-600 font-semibold hover:text-orange-700 transition-colors flex items-center">
                 Learn More <ArrowRight className="ml-2 h-3.5 w-3.5 sm:h-4 sm:w-4" />
-              </button>
+              </Link>
             </div>
 
             {/* Food Grade Coatings Card */}
@@ -396,9 +400,9 @@ const HomePage = () => {
                   Easy Maintenance
                 </li>
               </ul>
-              <button className="mt-auto text-orange-600 font-semibold hover:text-orange-700 transition-colors flex items-center">
+              <Link href="/food-plants" className="mt-auto text-orange-600 font-semibold hover:text-orange-700 transition-colors flex items-center">
                 Learn More <ArrowRight className="ml-2 h-3.5 w-3.5 sm:h-4 sm:w-4" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -471,14 +475,14 @@ const HomePage = () => {
             up to 70% compared to traditional methods.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-xl transition-all flex items-center justify-center">
+            <a href="tel:+19403911230" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-xl transition-all flex items-center justify-center">
               <Phone className="mr-2 h-5 w-5" />
               Call (940) 391-1230
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-600 hover:text-white transition-all flex items-center justify-center">
+            </a>
+            <Link href="/contact" className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-600 hover:text-white transition-all flex items-center justify-center">
               <Mail className="mr-2 h-5 w-5" />
               Request Quote
-            </button>
+            </Link>
           </div>
         </div>
       </section>

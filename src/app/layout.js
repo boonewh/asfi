@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
     "name": "ASFI Construction LLC",
     "alternateName": "ASFI Construction",
     "url": "https://www.asficonstruction.com",
-    "logo": "https://www.asficonstruction.com/images/asfi-logo.png",
+    "logo": "https://www.asficonstruction.com/images/logo.png",
     "description": "Nationwide polyurea coating specialists. 18+ years expertise in culvert rehabilitation, bridge waterproofing, and infrastructure protection. Woman-owned, WBENC certified.",
     "foundingDate": "2006",
     "founder": {
@@ -131,7 +131,7 @@ export default function RootLayout({ children }) {
     "@type": "LocalBusiness",
     "@id": "https://www.asficonstruction.com",
     "name": "ASFI Construction LLC",
-    "image": "https://www.asficonstruction.com/images/asfi-logo.png",
+    "image": "https://www.asficonstruction.com/images/logo.png",
     "telephone": "+1-940-391-1230",
     "email": "rachel@asficonstruction.com",
     "address": {

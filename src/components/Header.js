@@ -1,5 +1,4 @@
 'use client'
-import { useState } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
@@ -61,7 +60,7 @@ export default function Header() {
 
               {/* Mobile menu button */}
               <div className="xl:hidden flex items-center">
-                <Disclosure.Button className="text-gray-300 hover:text-orange-400 p-2">
+                <Disclosure.Button aria-label={open ? 'Close navigation' : 'Open navigation'} className="text-gray-300 hover:text-orange-400 p-2">
                   {open ? (
                     <XMarkIcon className="h-6 w-6" />
                   ) : (
