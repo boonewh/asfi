@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ASFI Construction's public site at [asficonstruction.com](https://www.asficonstruction.com).
+
+Use **Node 24.22.1** and **npm 11.17.0**, pinned in the runtime files/package metadata.
+
+```sh
+npm ci --ignore-scripts
+npm run lint
+npm run build
+npx playwright install chromium
+npm run check:upgrade
+```
+
+The browser check runs against a local production server by default. All Formspree
+submissions, tracking and the existing YouTube embed are intercepted: it sends no
+real inquiries. Six pages, images/schema, navigation, homepage links, FAQs, slider
+controls and contact error/retry/success behavior are checked on desktop/mobile.
+See [October maintenance notes](docs/SECURITY-MAINTENANCE-2026-10.md).
+
+The sections below are the original framework starter instructions.
 
 ## Getting Started
 

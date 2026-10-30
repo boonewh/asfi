@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @theme {
+  /* Retain the site's existing Tailwind 4.1 font defaults across the upgrade. */
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* ASFI Construction Brand Colors */
   --color-asfi-slate: #8492BD;
   --color-asfi-blue: #5167AD;

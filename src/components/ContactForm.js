@@ -2,7 +2,7 @@
 import { useForm, ValidationError } from '@formspree/react'
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm("xovlrjrp") // Replace with your Formspree form ID;
+  const [state, handleSubmit] = useForm("xovlrjrp")
 
   if (state.succeeded) {
     return <p className="text-green-600 font-semibold">Thank you! We’ll get back to you soon.</p>
@@ -11,7 +11,8 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       {/* Hidden subject for email notifications */}
-      <input type="hidden" name="_subject" value="All Seasons Foam Contact Form Submission" />
+      <input type="hidden" name="_subject" value="ASFI Construction Contact Form Submission" />
+      <ValidationError errors={state.errors} role="alert" className="text-red-700" />
 
       <div>
         <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
